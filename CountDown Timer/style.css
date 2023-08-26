@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #02233f;
+    color: white;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.inputs{
+    display: flex;
+    
+}
+input{
+    height: 95px;
+    width:95px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 60%;
+    border: none;
+    outline: none;
+
+}
+.sp{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
